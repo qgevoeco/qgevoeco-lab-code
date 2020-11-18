@@ -4,5 +4,5 @@ Collection of code created/used/adapted by the [qgevoeco lab](https://qgevoeco.c
 # Beetle lab methods
 
   - [QR code identities]()
-  
+    - required packages: `qrencode` and `ImageMagick`  
   
