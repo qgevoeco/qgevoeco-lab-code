@@ -1,5 +1,5 @@
 # qgevoeco-lab-code
-Collection of code created/used/adapted by the [qgevoeco lab](https://qgevoeco.com) in our research at Auburn University
+Collection of code created, used, or adapted by the [qgevoeco lab](https://qgevoeco.com) in our research at Auburn University
 
 # License
 
