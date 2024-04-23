@@ -24,6 +24,7 @@ Collection of code created, used, or adapted by the [qgevoeco lab](https://qgevo
 
   - [Create batches of QR code identities](https://github.com/qgevoeco/qgevoeco-lab-code/blob/main/Beetle-lab-methods/QRcode.sh)
     - required packages: [qrencode](https://fukuchi.org/works/qrencode/) and [ImageMagick ](https://imagemagick.org/index.php)
+    - See workaround if encounter certain __ERRORs__ as indicated in this [workaround markdown](Beetle-lab-methods/QRcode_error_workaround.md)
   
 ## Bioinformatics
 
