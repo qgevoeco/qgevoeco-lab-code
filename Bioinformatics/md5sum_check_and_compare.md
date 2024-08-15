@@ -47,7 +47,8 @@ If this is being completed on an HPC (i.e., `Easley`) at Auburn University, then
 
   - Initiate an interactive job with `salloc -N1 -n1`
   - Load the correct `R` module
-    - list _everything_ with `module avail` and find the section for `R`
+    - list just modules matching "R" with `module spider -r ^R`
+        - alternatively list _everything_ with `module avail` and find the section for `R`
     - load the latest/desired version of `R` with `module load R/4.4.0`
    
 Then in `R`, run (note if launched in a terminal from the desired working directory the first step can be skipped or the directory contents can be checked with `system("ls")`):  
