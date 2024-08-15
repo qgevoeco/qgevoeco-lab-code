@@ -43,6 +43,15 @@ find ./relative-path-to-directory -type f -exec md5sum '{}' \; > md5sum_curntLoc
 
 # R code to compare two files of md5sums
 
+If this is being completed on an HPC (i.e., `Easley`) at Auburn University, then to launch `R` do the following 2 steps:
+
+  - Initiate an interactive job with `salloc -N1 -n1`
+  - Load the correct `R` module
+    - list _everything_ with `module avail` and find the section for `R`
+    - load the latest/desired version of `R` with `module load R/4.4.0`
+   
+Then in `R`, run (note if launched in a terminal from the desired working directory the first step can be skipped or the directory contents can be checked with `system("ls")`):  
+
 ```{r md5sum_compare}
 setwd("/path-to-main-directory-for-sequencing-run") #<-- FIXME
 
