@@ -29,4 +29,6 @@ Collection of code created, used, or adapted by the [qgevoeco lab](https://qgevo
 ## Bioinformatics
 
   - [Create and check md5sums](https://github.com/qgevoeco/qgevoeco-lab-code/blob/main/Bioinformatics/md5sum_check_and_compare.md)
-    - useful after transferring raw sequence data (e.g., to/from an HPC, external hadrd drive storage, or NCBI) 
+    - useful after transferring raw sequence data (e.g., to/from an HPC, external hadrd drive storage, or NCBI)
+  - [Use R to Import and Process iButton data](https://github.com/qgevoeco/qgevoeco-lab-code/blob/main/Bioinformatics/iButton_importAndProcss.R) 
+    - includes and example of creating and plotting summary statistics from the iButton data
