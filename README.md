@@ -28,6 +28,8 @@ Collection of code created, used, or adapted by the [qgevoeco lab](https://qgevo
   
 ## Bioinformatics
 
+  - [Reference Genome download from NCBI](https://github.com/qgevoeco/qgevoeco-lab-code/blob/main/Bioinformatics/download_NCBI_ReferenceGenome.md)
+    - Command line instructions to download a reference genome from NCBI. Can be done on HPC/Supercomputer (e.g., Easley at Auburn University)
   - [Create and check md5sums](https://github.com/qgevoeco/qgevoeco-lab-code/blob/main/Bioinformatics/md5sum_check_and_compare.md)
     - useful after transferring raw sequence data (e.g., to/from an HPC, external hadrd drive storage, or NCBI)
   - [Use R to Import and Process iButton data](https://github.com/qgevoeco/qgevoeco-lab-code/blob/main/Bioinformatics/iButton_importAndProcss.R) 
