@@ -38,6 +38,10 @@ tree
 ```
 md5sum -c md5sum.txt > md5sumCheck_curntLocatn_$(date "+%Y_%m_%d_%H%M%S").txt
 ```
-And check the file output: `nano md5sumCheck_curnt*`
+And check the file output:
+
+```
+nano md5sumCheck_curnt*
+```
 
 
